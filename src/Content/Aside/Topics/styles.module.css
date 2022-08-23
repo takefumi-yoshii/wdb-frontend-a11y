@@ -1,0 +1,41 @@
+.topics {
+  padding: 16px;
+}
+
+.heading {
+  padding-left: 16px;
+  font-size: 1.8rem;
+  border-left: 8px solid var(--blue);
+}
+
+.topics li {
+  margin: 16px 0;
+  border: 1px solid #ccc;
+}
+
+.topics li a {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.topics li img {
+  margin-right: 16px;
+  width: 24px;
+}
+
+.learnMore {
+  display: flex;
+  align-items: center;
+}
+
+.learnMore::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  margin-right: 4px;
+  border-top: 4px solid transparent;
+  border-right: 0px solid transparent;
+  border-left: 8px solid var(--blue);
+  border-bottom: 4px solid transparent;
+}

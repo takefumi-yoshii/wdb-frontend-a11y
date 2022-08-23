@@ -1,0 +1,70 @@
+.form {
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.group {
+  margin-top: 42px;
+  padding: 16px;
+  background-color: white;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.heading {
+  position: absolute;
+  top: -42px;
+  left: 0;
+  padding-left: 16px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-left: 8px solid var(--blue);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.row input {
+  display: block;
+  width: 100%;
+  padding: 0.2em 0.4em;
+  border: 1px solid #ccc;
+}
+
+.title {
+  width: 84px;
+  margin-right: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: right;
+  color: var(--blue);
+}
+
+.keepSession {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+}
+
+.keepSession input {
+  margin-right: 8px;
+}
+
+.button {
+  display: block;
+  width: 70%;
+  padding: 8px 16px;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: white;
+  border: 2px solid var(--blue);
+  border-radius: 8px;
+  background-color: var(--blue);
+}
+
+.button {
+  margin: 16px auto;
+}

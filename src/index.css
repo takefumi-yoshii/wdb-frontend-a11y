@@ -1,0 +1,35 @@
+:root {
+  --blue: #0173d8;
+  --light-blue: #deecf9;
+  --light-gray: #eceef6;
+  --smork-gray: #949da3;
+  --gray: #30414e;
+  --black: #0e1f2b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  list-style: none;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  color: var(--black);
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,22 @@
+.nav {
+  flex-grow: 1;
+}
+
+.nav ol {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav li {
+  margin-right: 16px;
+}
+
+.nav a {
+  display: block;
+  padding: 1em;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}

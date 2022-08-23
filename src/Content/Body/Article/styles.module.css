@@ -1,0 +1,33 @@
+.article {
+  display: flex;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.article img {
+  min-width: 160px;
+  height: 100px;
+  margin-right: 12px;
+  background-color: #ccc;
+}
+
+.heading {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.body {
+  font-size: 1.4rem;
+}
+
+.link {
+  display: block;
+  font-size: 1.4rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+.breadcrumb {
+  padding: 16px;
+  background-color: var(--light-gray);
+}
+
+.current,
+.breadcrumb [aria-current="page"] {
+  color: #000;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.breadcrumb a {
+  display: inline-block;
+  margin-right: 8px;
+  padding-right: 8px;
+  text-decoration: none;
+}
+
+.breadcrumb a::after {
+  content: ">";
+  margin-left: 8px;
+  color: #ccc;
+}
+
+.breadcrumb a:last-child:after {
+  content: "";
+}

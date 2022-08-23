@@ -1,0 +1,9 @@
+.content {
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+}
+
+.main {
+  flex-grow: 1;
+}

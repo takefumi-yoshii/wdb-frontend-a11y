@@ -1,0 +1,5 @@
+.aside {
+  width: 320px;
+  min-width: 320px;
+  background-color: var(--light-blue);
+}
