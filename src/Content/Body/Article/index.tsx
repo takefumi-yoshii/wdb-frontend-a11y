@@ -6,13 +6,14 @@ type Props = {
   title: string;
   body: string;
   imageUrl: string;
+  imageAlt?: string;
 };
 
-export function Article({ id, title, body, imageUrl }: Props) {
+export function Article({ id, title, body, imageUrl, imageAlt }: Props) {
   const headingId = useId();
   return (
     <article aria-labelledby={headingId} className={styles.article}>
-      <img src={imageUrl} />
+      <img src={imageUrl} alt={imageAlt || ""} />
       <div>
         <h3 id={headingId} className={styles.heading}>
           {title}

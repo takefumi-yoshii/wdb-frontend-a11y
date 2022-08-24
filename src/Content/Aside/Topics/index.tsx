@@ -14,19 +14,19 @@ export function Topics() {
       <ul aria-labelledby={headingId}>
         <li>
           <a href="/topics/a">
-            <img src={Book} />
+            <img src={Book} alt="" />
             科学
           </a>
         </li>
         <li>
           <a href="/topics/b">
-            <img src={Photo} />
+            <img src={Photo} alt="" />
             自然
           </a>
         </li>
         <li>
           <a href="/topics/c">
-            <img src={Camera} />
+            <img src={Camera} alt="" />
             エンタメ
           </a>
         </li>

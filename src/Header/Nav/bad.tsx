@@ -2,7 +2,8 @@ import styles from "./styles.module.css";
 
 export function Nav() {
   return (
-    <nav className={styles.nav}>
+    // ランドマークとして識別されない
+    <div className={styles.nav}>
       <ol>
         <li>
           <a aria-current="page" href="/">
@@ -16,6 +17,6 @@ export function Nav() {
           <a href="/settings">設定</a>
         </li>
       </ol>
-    </nav>
+    </div>
   );
 }
