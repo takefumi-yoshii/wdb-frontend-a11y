@@ -1,4 +1,3 @@
-import { useId } from "react";
 import styles from "./styles.module.css";
 
 type Props = {
@@ -17,12 +16,13 @@ export function Article({ id, title, body, imageUrl }: Props) {
       <div>
         {/* 見栄えのみの見出しになっている */}
         <p className={styles.heading}>{title}</p>
-        <p>{body}</p>
+        <p className={styles.body}>{body}</p>
         {/* 見栄えのみのリンクになっている */}
         <p
           className={styles.link}
-          onClick={(event) => {
-            console.log(id);
+          onClick={() => {
+            // SPA 遷移ができていても、リンクとして識別されない
+            // router.push(`/articles/${id}`)
           }}
         >
           詳細ページへ

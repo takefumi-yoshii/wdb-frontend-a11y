@@ -19,7 +19,7 @@ export function Article({ id, title, body, imageUrl, imageAlt }: Props) {
           {title}
         </h3>
         <p className={styles.body}>{body}</p>
-        <a className={styles.link} href="#">
+        <a className={styles.link} href={`/articles/${id}`}>
           詳細ページへ
         </a>
       </div>

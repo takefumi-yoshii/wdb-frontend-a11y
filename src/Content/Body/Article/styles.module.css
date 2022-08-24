@@ -24,6 +24,7 @@
 .link {
   display: block;
   font-size: 1.4rem;
+  color: var(--blue);
   text-decoration: none;
   cursor: pointer;
 }
