@@ -1,12 +1,17 @@
-import { Header } from "../Header";
+import { Aside } from "../Aside";
 import { Footer } from "../Footer";
-import { Content } from "../Content";
+import { Header } from "../Header";
+import { Main } from "../PageMain";
+import styles from "./styles.module.css";
 
 export function App() {
   return (
     <div className="app">
       <Header />
-      <Content />
+      <div className={styles.content}>
+        <Main />
+        <Aside />
+      </div>
       <Footer />
     </div>
   );

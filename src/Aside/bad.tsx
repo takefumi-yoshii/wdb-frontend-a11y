@@ -4,7 +4,7 @@ import { Topics } from "./Topics/bad";
 
 export function Aside() {
   return (
-    // ランドマークとして識別されていない
+    // <aside>要素でマークアップすべき
     <div className={styles.aside}>
       <Form />
       <Topics />

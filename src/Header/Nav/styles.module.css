@@ -20,3 +20,8 @@
   text-decoration: none;
   color: white;
 }
+
+.nav .current,
+.nav [aria-current="page"] {
+  border-bottom: 2px solid white;
+}

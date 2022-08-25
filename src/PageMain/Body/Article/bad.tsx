@@ -5,14 +5,22 @@ type Props = {
   title: string;
   body: string;
   imageUrl: string;
+  imageAlt?: string;
 };
 
-export function Article({ id, title, body, imageUrl }: Props) {
+export function Article({
+  id,
+  title,
+  body,
+  imageUrl,
+  imageAlt,
+}: Props) {
   return (
-    // 領域のアクセシブルネームが未定義、セクショニングされていない
+    // 領域のアクセシブルネームが未定義
+    // セクショニングされていない
     <div className={styles.article}>
       {/* alt がない */}
-      <img src={imageUrl} />
+      <img src={imageUrl} alt={imageAlt} />
       <div>
         {/* 見栄えのみの見出しになっている */}
         <p className={styles.heading}>{title}</p>

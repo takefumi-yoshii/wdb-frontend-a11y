@@ -13,22 +13,40 @@ export function Form() {
         <p className={styles.heading}>ログイン</p>
         <div className={styles.row}>
           {/* 見栄えだけの label になっている */}
-          <span className={styles.title}>会員ID</span>
+          <span className={styles.title}>
+            会員ID
+          </span>
           {/* アクセシブルネームがない */}
-          <input id="userId" name="userId" type="text" />
+          <input
+            id="userId"
+            name="userId"
+            type="text"
+          />
         </div>
         <div className={styles.row}>
           {/* 見栄えだけの label になっている */}
-          <span className={styles.title}>パスワード</span>
+          <span className={styles.title}>
+            パスワード
+          </span>
           {/* アクセシブルネームがない */}
-          <input id="password" name="password" type="password" />
+          <input
+            id="password"
+            name="password"
+            type="password"
+          />
         </div>
         <div className={styles.keepSession}>
-          <input id="keepSession" name="keepSession" type="checkbox" />
+          <input
+            id="keepSession"
+            name="keepSession"
+            type="checkbox"
+          />
           <span>ログイン状態を保存する</span>
         </div>
       </div>
-      <button className={styles.button}>ログイン</button>
+      <button className={styles.button}>
+        ログイン
+      </button>
     </form>
   );
 }

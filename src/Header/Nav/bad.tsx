@@ -2,11 +2,12 @@ import styles from "./styles.module.css";
 
 export function Nav() {
   return (
-    // ランドマークとして識別されない
+    // <nav>要素でマークアップすべき
     <div className={styles.nav}>
       <ol>
         <li>
-          <a aria-current="page" href="/">
+          {/* aria-current でa11y配慮できる */}
+          <a className={styles.current} href="/">
             ホーム
           </a>
         </li>

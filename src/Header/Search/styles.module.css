@@ -1,0 +1,6 @@
+.search {
+  padding: 0.2em 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  background-color: var(--light-blue);
+}
