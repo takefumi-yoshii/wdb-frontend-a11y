@@ -9,7 +9,7 @@ type Props = {
   imageAlt?: string;
 };
 
-export function Article({
+export function Card({
   id,
   title,
   body,

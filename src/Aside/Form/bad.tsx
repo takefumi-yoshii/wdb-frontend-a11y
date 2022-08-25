@@ -2,7 +2,8 @@ import styles from "./styles.module.css";
 
 export function Form() {
   return (
-    // アクセシブルネームがなく、ランドマークとして識別されていない
+    // アクセシブルネームがない場合、
+    // form ロールとして識別されていない
     <form
       className={styles.form}
       onSubmit={(event) => {

@@ -1,4 +1,4 @@
-import { Article } from "./Article/bad";
+import { Card } from "./Card/bad";
 import { mock } from "./mock";
 import styles from "./styles.module.css";
 
@@ -10,7 +10,7 @@ export function Body() {
       </h2>
       <div className={styles.articles}>
         {mock.map((item) => (
-          <Article key={item.id} {...item} />
+          <Card key={item.id} {...item} />
         ))}
       </div>
     </div>
