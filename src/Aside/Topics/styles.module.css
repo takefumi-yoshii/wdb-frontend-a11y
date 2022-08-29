@@ -9,14 +9,14 @@
 }
 
 .topics li {
-  margin: 16px 0;
+  margin: 8px 0;
   border: 1px solid #ccc;
 }
 
 .topics li a {
   display: flex;
   align-items: center;
-  padding: 1em;
+  padding: 0.6em;
 }
 
 .topics li img {

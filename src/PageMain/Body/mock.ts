@@ -35,16 +35,4 @@ export const mock = [
     body: "この部分は、○○文字以内のテキストが入ります。",
     imageUrl: "/images/pic00005.jpg",
   },
-  {
-    id: "6",
-    title: "ちいさな水族館",
-    body: "この部分は、○○文字以内のテキストが入ります。",
-    imageUrl: "/images/pic00006.jpg",
-  },
-  {
-    id: "7",
-    title: "まだ間に合う苺狩り",
-    body: "この部分は、○○文字以内のテキストが入ります。",
-    imageUrl: "/images/pic00007.jpg",
-  },
 ];
